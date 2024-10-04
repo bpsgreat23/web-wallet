@@ -21,7 +21,7 @@ export function SolanaWallet({ mnemonic }) {
             Add SOL wallet
         </button>
         {publicKeys.map(p => <div>
-            {p.toBase58()}
+            {p.toBase58()};
         </div>)}
     </div>
 }
